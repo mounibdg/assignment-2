@@ -2,6 +2,7 @@ body{
     margin: 0 ;
     white-space : nowrap ; 
 }
+/* styling the boxes containing letters A to F */
 .box {
     display : inline-block ;
     box-sizing: border-box ; 
@@ -13,12 +14,13 @@ body{
     font-family: Tahoma , sans-serif;
     font-size: 40px;
     padding-left: 10px;}
+    /* using hover to make changes as you hover the mouse over the boxes */
 .box:hover{
     cursor : pointer ; 
     background-color : yellow ;
     color : goldenrod ; 
 }
-
+/* styling the last box class "lastbox"*/
 .lastbox{
     position: fixed ; 
     bottom : 0 ;
